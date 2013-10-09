@@ -1,0 +1,258 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: 'helvetica', 'verdana', sans-serif;
+	font-size: 12pt;
+	color: rgb(35,32,31);
+	margin: 0;
+	padding: 0;
+	
+}
+
+img {
+	border: none;
+}
+
+/* Easy Slider */
+#slider {
+	width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 135px;
+}
+
+#slider ul,#slider li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#slider li { /* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/
+	width: 696px;
+	height: 340px;
+	overflow: hidden;
+}
+
+#prevBtn,#nextBtn {
+	display: block;
+	width: 30px;
+	height: 77px;
+	position: absolute;
+	left: -30px;
+	top: 71px;
+	z-index: 1000;
+}
+
+#nextBtn {
+	left: 696px;
+}
+
+#prevBtn a,#nextBtn a {
+	display: block;
+	position: relative;
+	width: 30px;
+	height: 77px;
+	background: url(../images/btn_prev.gif) no-repeat 0 0;
+}
+
+#nextBtn a {
+	background: url(../images/btn_next.gif) no-repeat 0 0;
+}
+
+/* header */
+div.header {
+	position: fixed;
+	background: #fff;
+	height: 124px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	padding: 0;
+}
+
+div.header div {
+	background: url("../images/header_line3.png") no-repeat center bottom;
+	height: 110px;
+	position: relative;
+	width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-top: 25px;
+}
+
+div.header div a img {
+	float: left;
+}
+
+div.header div ul {
+	list-style-type: none;
+	text-align: right;
+	padding-top: 42px;
+}
+
+div.header div ul li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* content */
+.container {
+	position: relative;
+	width: 100%;
+	padding: 0;
+}
+
+div.whitebox {
+	width: 696px;
+	line-height: 20px;
+	background: #EFF0F1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border: none;
+	text-align: left;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+div.whitebox p, div.whitebox span, div.whitebox hr {
+	color: rgb(35,32,31);
+	font-size: 16px;
+}
+
+div.whitebox h2 {
+	padding-top: 15px;
+}
+
+
+div.whitebox h3 a:hover {
+	text-decoration: none;
+}
+
+div.whitebox div {
+	padding-left: 15px;
+	padding-right: 15px;
+	float:left;
+	width: 318px;
+}
+
+
+/* footer */
+div.footerPanel {
+	clear:both;
+	width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+	line-height: 20px;
+	font-family: Tahoma;
+	font-style: normal;
+	background-color: rgb(35,32,31);
+	height: 212px;
+	margin-top: 25px;
+	
+}
+
+div.footerPanel div {
+	float: left;
+	padding: 10px;
+	background-color: rgb(35,32,31);
+	width: 207px;
+	height: 140px;
+}
+
+div.footerPanel p {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	text-align: center;
+}
+
+div.footerPanel div span {
+	color: white;
+}
+
+div.footerPanel dl dt a, div.footerPanel dl dt span {
+	font-weight: bold;
+	color: white;
+}
+
+div.footerPanel dl dd {
+	margin-left: 15px;
+}
+
+div.footerPanel dl dd a {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+div.container {
+  margin: 0 auto 30px;
+  width: 696px;
+  padding: 0;
+}
+
+
+
+div.trabalho-criativo { 
+	background: url('../images/trabalho-criativo.png') no-repeat;
+}
+div.pessoas-excelentes { 
+	background: url('../images/pessoas-excelentes.png') no-repeat right; 
+}
+div.descobrir-real-necessidade { 
+	background: url('../images/descobrir-real-necessidade.png') no-repeat;
+}
+div.automatizar { 
+	background: url('../images/automatizar.png') no-repeat right; 
+}
+
+div.opensource { 
+	background: url('../images/opensource.png') no-repeat;
+	height:150px;
+}
+div.consultoria { 
+	background: url('../images/consultoria.png') no-repeat right; 
+}
+
+
+div.left {
+  text-align: left;
+  padding: 20px 0;
+  margin: 20px 0;
+  padding-left: 380px;
+  padding-right: 0px;
+}
+
+div.right {
+  text-align: left;
+  padding: 20px 0;
+  margin: 20px 0;
+  padding-right: 380px;
+  padding-left: 0px;
+}
+
